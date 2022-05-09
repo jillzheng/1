@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int add_fun1(int a,int b){
+    return a+b;
+}
+
+
+int add_fun2(int a,int b){
+    return a-b;
+}
+
+
+int add_fun3(int a,int b){
+    return a*b;
+}
+
+
+int add_fun4(int a,int b){
+    return a/b;
+}
+int main()
+{
+   
+    int a,b;
+    printf("please input a: \n");
+    scanf("%d" ,&a);
+    printf("please input b: \n");
+    scanf("%d",&b);
+    printf(" a + b= %d\n",add_fun1(a,b));
+    printf(" a - b= %d\n",add_fun2(a,b));
+    printf(" a * b= %d\n",add_fun3(a,b));
+    printf(" a / b= %d\n",add_fun4(a,b));
+    cout<<"Hello World";
+    return 0;
+}
